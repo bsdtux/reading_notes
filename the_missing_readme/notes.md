@@ -107,10 +107,47 @@ This chapter was all about how we should review code. Why they are important, ho
 - Start with tests, that will help you understand what is changing
 
 ## Delivering Software
+This chapter is all about how software is delivered. This could be though CI/CD or through packaging and downloading. it was hard for me personally because I only work on web projects so I forget there are other packaging means
+
+- Delivery Phases
+    - Build -> Release -> Deploy -> Rollout
+Versioning X.Y.Z
+    - Major
+    - Minor
+    - Patch
+- Beta flags and feature flags are a great way to roll out changes and allow for quick shutoff of new code if things go wrong
 
 ## Going On - Call
+- This chapter was all about handling on call rotations. I have been on so many on call rotations that this chapter gave me nightmares :P
+
+- When trying to track down an issue start by asking why / and what. This could help you quickly find the root cause
+- Look at recently released code because that could also be a cause
+
 ## Technical Design Process
+- This chapter was all about navigating the tough challenges of doing a proper technical design
+
+- Thinking About Design
+    - Define and understand the Problem
+    - what are the boundaries
+    - Restate the problem in your own words
+- Do your research
+    - Have others solved this
+    - Think of more than one way
+    - What trade offs do each give
+- Conduct experiments
+    - mini POC's
+    - Code should not be tested nor polished most of it will get thrown away
+- Give it time
+    - You need large chuncks of time to think through this. 
+    - take breaks
+    - change scenary
+- getting comforatable writing is a great skill for software developers. It helps you better articulate yourself
+- Inspiration
+    - PEPs from python (https://github.com/python/peps/)
+    - Rust Request For Comments  (https://github.com/rust-lang/rfcs/)
+
 ## Creating Evolvable Architectures
+
 ## Agile Planning
 ## Working with Managers
 ## Navigating Your Career
