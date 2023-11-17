@@ -147,7 +147,57 @@ Versioning X.Y.Z
     - Rust Request For Comments  (https://github.com/rust-lang/rfcs/)
 
 ## Creating Evolvable Architectures
+This chapter is all about how to create architectures that change and grow as time passes. When companies change requirements, or direction we need to build architectures that can evolve with them as well
 
-## Agile Planning
+- Complexity is anything related to the structure of a system that make it hard to modify or understand. They typically have two characteristics
+    - high dependency
+        - Hard to modify
+        - Tight coupling
+        - High change amplification meaning one change causes massive cascade
+    - high obsecurity 
+        - Difficult to predict how a change will affect surrounding code
+
+- Engineers typically choose two tactics for evolving architectures
+    - try to predict the future
+    - build abstractions
+    - Both lead to massive complexity
+    - Combat the above with YAGNI
+        - Use principal of least astnoshiment
+- Best way to keep code flexible is to have less of it
+- Principal of least astonishment says build features to act the way a user expects it to
+- Group software based on Domain
+    - Shipping code in a shipping module and Purchase code in a purchase module etc...
+- API's should do the bare minimum nothing more. Easier to give then take away
+- Isolate databases
+    - Don't let applications share data otherwise you run the risk of upgrades causing hell
+    - Or locks / deadlocks
+- Use Schemas to be explicit
+
 ## Working with Managers
+This chapter was how to maximize your relationship with your manager. How to have good 1:1s, how to plan for your future growth, how to be a great partner 
+
+- 1:1
+    - Discus critical topics
+    - address big picture concerns
+        - Companies direction / Organizational Changes
+    - build a productive long term relationship
+    - career advice / projections
+    - personal
+- Giving Feedback
+    - SBI (Situation + Behavior + Impact)
+        - Situation: What happened and where
+        - Behavior: Describe the observed behavior
+        - Impact: Describe how that situation and behavior will affect things
+
 ## Navigating Your Career
+This chapter is all about finding your way and navigating your long journey as a software developer. 
+
+- You are in charge of your journey.
+    - Steer your promotions
+    - Be your own biggest cheerleader
+- Try and produce the most impact to be valuable to the team
+    - Initiate New Ideas
+    - be positive
+    - let them count on you
+    - Listen intently to your teammates
+- Pace yourself
